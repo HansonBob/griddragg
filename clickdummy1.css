@@ -1,0 +1,73 @@
+.d_container {
+  background: #ddd;
+  position: relative;
+}
+
+.d_area {
+  background: #ccc;
+  min-height: 400px;
+}
+
+.d_menu {
+  background: #aaa;
+  min-height: 600px;
+  position: fixed;
+  right: 0px;
+  top: 100px;
+  width: 300px;
+}
+
+.d_entry_placed {
+  height: 200px;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+
+.row .ui-droppable {
+  background: #faa;
+  min-height: 100px;
+}
+
+.draggbar {
+  background: #fff;
+  border-bottom: 3px solid #000;
+  /*height: 30px;*/
+}
+
+.draggbar a {
+  color: #000;
+  display: inline-block;
+  font-size: 0px;
+  font-weight: bold;
+  height: 30px;
+  overflow: hidden;
+  text-decoration: none;
+  width: 30px;
+}
+
+.draggbar a:before {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 20px;
+}
+
+.draggbar .dragg:before {
+  content: "\f05b";
+}
+
+.draggbar .decrease:before {
+  content: "\f068";
+}
+
+.draggbar .increase:before {
+  content: "\f067";
+}
+
+.draggbar .remove:before {
+  content: "\f00d";
+}
+
+.element-holder {
+  background: #fff;
+  height: 170px;
+}
